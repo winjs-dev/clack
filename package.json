@@ -1,6 +1,6 @@
 {
-  "name": "@sorrycc/clack-prompt",
-  "version": "0.0.2",
+  "name": "@umijs/clack-prompt",
+  "version": "0.0.1",
   "type": "module",
   "main": "dist/prompt/index.js",
   "types": "dist/prompt/index.d.ts",
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "father build",
-    "release": "father doctor && father build && npm version patch && npm publish"
+    "release": "father doctor && father build && npm version patch && npm publish --public"
   },
   "dependencies": {
     "is-unicode-supported": "^1.3.0",
