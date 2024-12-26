@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "father build",
-    "release": "father doctor && father build && npm version patch && npm publish --public"
+    "release": "father doctor && father build && npm version patch && npm publish --public && git push --tags"
   },
   "dependencies": {
     "is-unicode-supported": "^1.3.0",
@@ -19,5 +19,8 @@
   },
   "devDependencies": {
     "father": "^4.5.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
