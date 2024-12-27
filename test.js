@@ -1,4 +1,4 @@
-import * as p from './prompt/index.js';
+import * as p from './dist/prompt/index.js';
 
 (async () => {
   console.log('test');

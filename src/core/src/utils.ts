@@ -1,6 +1,6 @@
-import process, { stdin, stdout } from 'node:process';
-import type { Key } from 'node:readline';
-import * as readline from 'node:readline';
+import process, { stdin, stdout } from 'process';
+import type { Key } from 'readline';
+import * as readline from 'readline';
 import { cursor } from 'sisteransi';
 
 const isWindows = process.platform.startsWith('win');

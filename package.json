@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "father build",
-    "release": "father doctor && father build && npm version patch && npm publish --public && git push --tags"
+    "release": "father doctor && father build && npm version patch && npm publish --public && git push --tags",
+    "test": "node test.js"
   },
   "dependencies": {
     "is-unicode-supported": "^1.3.0",
