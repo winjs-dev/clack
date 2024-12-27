@@ -1,5 +1,5 @@
 {
-  "name": "@umijs/clack-prompt",
+  "name": "@umijs/clack-prompts",
   "version": "0.0.3",
   "type": "module",
   "main": "dist/prompt/index.js",
