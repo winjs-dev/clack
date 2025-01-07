@@ -1,6 +1,6 @@
 {
   "name": "@winner-fed/clack-prompts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/prompt/index.js",
   "types": "dist/prompt/index.d.ts",
   "files": [
