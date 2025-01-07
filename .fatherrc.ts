@@ -1,7 +1,7 @@
 import { defineConfig } from 'father';
 
 export default defineConfig({
-  esm: {
+  cjs: {
     transformer: 'babel',
     input: 'src',
     output: 'dist',
